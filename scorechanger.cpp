@@ -18,16 +18,6 @@ ScoreChanger::ScoreChanger(QWidget *parent) :
     }
     dPath.close();
 
-    QFile mapList("Map List.txt");
-    mapList.open(QIODevice::ReadOnly | QIODevice::Text);
-
-    while(!mapList.atEnd()){
-
-        QString data = mapList.readLink();
-        ui->comboMap->addItem(data);
-    }
-
-
 }
 
 ScoreChanger::~ScoreChanger()
@@ -357,8 +347,8 @@ void ScoreChanger::on_toolButton_clicked()
     nMap.setWindowTitle("Add");
     nMap.exec();
     ui->comboMap->addItem(nMap.nMap);
-    QFile maps("Map List.txt");
-    maps.open(QIODevice::Append | QIODevice::Text);
-    maps.write(nMap.nMap.toUtf8()+"\n");
-    maps.close();
+    //QFile maps("Map List.txt");
+    //maps.open(QIODevice::Append | QIODevice::Text);
+    //maps.write(nMap.nMap.toUtf8());
+    //maps.close();
 }

@@ -98,12 +98,112 @@
        <x>50</x>
        <y>90</y>
        <width>161</width>
-       <height>22</height>
+       <height>21</height>
       </rect>
      </property>
      <item>
       <property name="text">
        <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cp_badlands</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cp_granary</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cp_gullywash_final1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cp_snakewater_final1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cp_process_final</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>koth_pro_viaduct_rc4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>koth_ashville_rc1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>koth_coalplant_b7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>koth_ultiduo_r_b7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>pl_swiftwater_ugc</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ctf_turbine_pro_b1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cp_gravelpit</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cp_steel</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>koth_lakeside_final</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>pl_badwater</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>pl_upward</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ctf_ballin_sky</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>mge_training_v8_beta4a</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>mge_training_v8_beta4b</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ultiduo_baloo</string>
       </property>
      </item>
     </widget>
@@ -167,6 +267,9 @@
        <width>25</width>
        <height>19</height>
       </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="text">
       <string>...</string>
